@@ -1,0 +1,9 @@
+{
+    "parameters":{
+        "name": "yolo_DataSource",
+        "layer":"3",
+        "learning_rate":"0.02"
+    },
+    "link_func":[],
+    "api":[]    
+}

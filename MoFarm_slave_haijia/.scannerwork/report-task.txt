@@ -1,0 +1,6 @@
+projectKey=MoFarmSonar
+serverUrl=http://192.168.10.231:9494
+serverVersion=8.9.2.46101
+dashboardUrl=http://192.168.10.231:9494/dashboard?id=MoFarmSonar
+ceTaskId=AYBazuGs35et8GJv_8Ag
+ceTaskUrl=http://192.168.10.231:9494/api/ce/task?id=AYBazuGs35et8GJv_8Ag

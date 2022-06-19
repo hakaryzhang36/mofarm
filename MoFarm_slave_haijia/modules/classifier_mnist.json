@@ -1,0 +1,9 @@
+{
+    "parameters":{
+        "name": "MNIST_Classifier",
+        "layer":3,
+        "learning_rate":0.01
+    },
+    "link_func":["set_feature_extractor"],
+    "api":["train","test"]    
+}

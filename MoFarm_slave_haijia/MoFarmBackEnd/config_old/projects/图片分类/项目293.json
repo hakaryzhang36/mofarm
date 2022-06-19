@@ -1,0 +1,1 @@
+{"modules": [{"name": "classifer_mnist", "local_name": "classifer_mnist_2", "config": {"layer": "3", "learning_rate": "0.01", "epoch": "2", "model": "classifier_1.pth"}}], "links": [], "running": {"classifer_mnist_2": "test"}}

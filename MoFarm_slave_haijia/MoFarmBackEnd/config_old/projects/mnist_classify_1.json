@@ -1,0 +1,40 @@
+{
+   "modules": [
+        {
+           "name":"DataSource_MNIST",
+           "local_name":"data_source_1",
+           "config":{   
+                 
+            }          
+        },
+        {
+            "name":"FeatureExtractor_MNIST",
+            "local_name":"feature_extractor_1",
+            "config":{   
+                "layer":3,
+                "learning_rate":0.01,
+                "model":"feature_extractor_1.pth",
+                "running":""
+            } 
+        },
+        {
+            "name":"Classifier_MNIST",
+            "local_name":"classifier_1",
+            "config":{          
+                    "layer":3,
+                    "learning_rate":0.01,
+                    "epoch":5,
+
+                    "model":"classifier_1.pth",
+                    "runing":"tratin"               
+           
+            } 
+            
+        }
+   ],
+   "links":[
+       ["data_source_1","feature_extractor_1","set_data_source"],
+       ["feature_extractor_1","classifier_1","set_feature_extractor"]
+   ],
+   "running":{"classifier_1":"train"}
+}

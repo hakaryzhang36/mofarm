@@ -1,0 +1,42 @@
+{
+    "modules": [
+        {
+            "name": "data_source",
+            "local_name": "guangzhou_img",
+            "config": {}
+        },
+        {
+            "name": "data_source",
+            "local_name": "wuhua_img",
+            "config": {}
+        },
+        {
+            "name": "deep_feature_extractor",
+            "local_name": "picture_feature_extractor",
+            "config": {
+                "layers": "3",
+                "iteration": "5"
+            }
+        },
+        {
+            "name": "Bayes_classifier",
+            "local_name": "vehicle_classifier",
+            "config": {}
+        }
+    ],
+    "links": [
+        [
+            "data_source",
+            "deep_feature_extractor",
+            "set_data_source"
+        ],
+        [
+            "deep_feature_extractor",
+            "Bayes_classifier",
+            "set_classifier"
+        ]
+    ],
+    "running": {
+        "picture_feature_extractor": "train"
+    }
+}
