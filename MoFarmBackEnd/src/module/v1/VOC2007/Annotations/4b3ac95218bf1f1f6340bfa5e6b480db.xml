@@ -1,0 +1,21 @@
+<annotation>
+    <folder>/project/AIProject/Dataset/Train/训练集7/v1/VOC2007/Annotations/</folder>
+    <filename>4b3ac95218bf1f1f6340bfa5e6b480db.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>garbagetruck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>124</xmin>
+            <ymin>54</ymin>
+            <xmax>583</xmax>
+            <ymax>392</ymax>
+        </bndbox>
+    </object>
+</annotation>

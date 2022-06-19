@@ -1,0 +1,9 @@
+{
+    "parameters":{
+        "name": "MNIST_DataSource",
+        "layer":"3",
+        "learning_rate":"0.02"
+    },
+    "link_func":[],
+    "api":["train","test"]    
+}

@@ -1,0 +1,10 @@
+{
+    "parameters":{
+        "layer":"3",
+        "learning_rate":"0.01",
+        "epoch":"2",
+        "model":"classifier_1.pth"
+    },
+    "link_func":["set_feature_extractor"],
+    "api":["train","test"]    
+}
