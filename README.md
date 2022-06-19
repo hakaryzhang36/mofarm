@@ -12,7 +12,7 @@ A distribuated modular machine learning platform, used in my tutor's lab.
 
 ## Install Requirements
 
-Run the commond below in **"MoFarm_haijia"** and **"MoFarm_slave_haijia"** respectively.
+Run the commond below in `./MoFarm_haijia` and `./MoFarm_slave_haijia` respectively.
 
     pip install -r requirements.txt 
 
@@ -23,7 +23,7 @@ This project is a distributate system. To start project, you need to start a mai
 
 #### 1 Start Main Server
 
-Run command below in **"MoFarm_haijia"** .
+Run command below in `./MoFarm_haijia` .
 
     python3 manage.py runserver on 0.0.0.0:9000
 
@@ -31,11 +31,11 @@ Run command below in **"MoFarm_haijia"** .
 
 #### 2 Start Slave Server
 
-Run command below in **"MoFarm_slave_haijia"** .
+Run command below in `./MoFarm_slave_haijia` .
 
     python3 manage.py runserver on 0.0.0.0:12345
 
-*Note: This port is default. If you need to run slave server on customized port, you should check [Coustomize Setting](#customize-setting) for more.*
+*Note: This address is default. If you need to run slave server on customized address, you should check [Coustomize Setting](#customize-setting) for more.*
 
 #### 3 Open Web Page
 
