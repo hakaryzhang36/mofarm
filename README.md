@@ -1,6 +1,10 @@
-# Undergraduate-Graduation-Project
+# Mofarm
 
-A distribuated modular machine learning platform, used in my tutor's lab.
+A modular machine learning platform, used in my tutor's lab.
+(my undergraduate graduation project)
+
+This platform tranfers ML model into different general modules. You can generate your own ML model with visual tool.
+
 
 ## Environment
 
